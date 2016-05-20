@@ -14,6 +14,7 @@
 		9B19317E1CEED5E30083ADC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B19317C1CEED5E30083ADC0 /* LaunchScreen.storyboard */; };
 		9B1931891CEED5E30083ADC0 /* CITestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1931881CEED5E30083ADC0 /* CITestingTests.swift */; };
 		9B1931941CEED5E30083ADC0 /* CITestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1931931CEED5E30083ADC0 /* CITestingUITests.swift */; };
+		9B1931A21CEEE2DF0083ADC0 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1931A11CEEE2DF0083ADC0 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9B19318F1CEED5E30083ADC0 /* CITestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CITestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1931931CEED5E30083ADC0 /* CITestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CITestingUITests.swift; sourceTree = "<group>"; };
 		9B1931951CEED5E30083ADC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1931A11CEEE2DF0083ADC0 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = ../TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		9B1931871CEED5E30083ADC0 /* CITestingTests */ = {
 			isa = PBXGroup;
 			children = (
+				9B1931A11CEEE2DF0083ADC0 /* TestViewController.swift */,
 				9B1931881CEED5E30083ADC0 /* CITestingTests.swift */,
 				9B19318A1CEED5E30083ADC0 /* Info.plist */,
 			);
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1931A21CEEE2DF0083ADC0 /* TestViewController.swift in Sources */,
 				9B1931891CEED5E30083ADC0 /* CITestingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
