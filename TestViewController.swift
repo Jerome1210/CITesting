@@ -21,7 +21,7 @@ class TestViewController: XCTestCase {
     }
     
     func testExample() {
-        XCTAssert(1 != 1)
+        XCTAssertTrue(1 == 1)
     }
     
     
